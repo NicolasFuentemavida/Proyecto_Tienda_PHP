@@ -1,0 +1,4 @@
+hola buenas adjunto el proyecto realizado con bootstrap 4 y php el proyecto esta enlazado con phpadmin mysql
+si bien falto lo que corresponde a symfony 2, no tengo mucho conocimiento sobre este y al momento de realizar el proyecto las actulizaciones de la 2.* es muy distinta a la 
+actual 6.*, de igual manera adjunto mis notas con relevancia a symfony, de igual forma disculpar si no llegue a completar el prioyecto como tal y no cupar el 
+framework solicitado
