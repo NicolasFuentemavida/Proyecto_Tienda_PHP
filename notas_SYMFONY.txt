@@ -1,0 +1,25 @@
+\\Crear un pryecto en symfony
+
+composer create-project symfony/website-skeleton:"^5.4" Nicolas
+
+\\iniciar servidor
+php -S localhost:8000 -t public/
+
+\\crear una base de datos con la config del proyecto
+php bin/console doctrine:database:create
+
+\\libera una serie de opciones para el proyecto
+php bin/console make
+
+\\selecciiona una opcion arealizar en el proyecto
+hp bin/console make:controler
+
+
+\\agregar nuba columna a la base de datos
+php php bin/console make:entity 
+
+\\actualizar base de datos 
+php bin/console doctrine:schema:update --force
+
+\\crear un formulario
+php bin/console make:form
