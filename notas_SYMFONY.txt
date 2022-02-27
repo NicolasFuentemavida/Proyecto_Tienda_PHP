@@ -1,6 +1,8 @@
-\\Crear un pryecto en symfony
 
-composer create-project symfony/website-skeleton:"^5.4" Nicolas
+instalar wamp \ instalar Composer-Setup \
+
+\\Crear un pryecto en symfony
+composer create-project symfony/website-skeleton:"^2.7" Nicolas
 
 \\iniciar servidor
 php -S localhost:8000 -t public/
@@ -15,7 +17,7 @@ php bin/console make
 hp bin/console make:controler
 
 
-\\agregar nuba columna a la base de datos
+\\agregar nueva columna a la base de datos
 php php bin/console make:entity 
 
 \\actualizar base de datos 
